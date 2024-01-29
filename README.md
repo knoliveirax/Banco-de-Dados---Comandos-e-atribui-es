@@ -1,5 +1,4 @@
 # Banco-de-Dados---Comandos-e-atribuicoes
-Banco de Dados - Comandos e atribuições feitos do zero no bloco de notas.
 
 CREATE DATABASE cadastroCidade;
 USE cadastroCidade;
