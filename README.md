@@ -11,6 +11,7 @@ poúlação INT,
 );
 
 INSERT INTO cidade (nome, uf, populacao) VALUES
+
 	('barueri', 'sp', '40000'),
 	('rio de janeiro', 'rj', '230000'),
 	('carapicuiba', 'sp', '45000'),
@@ -46,6 +47,7 @@ setor_mercadoria varchar (255),
 );
 
 INSERT INTO mercadoria (tipo_mercadoria, quant_mercadoria, setor_mercadoria) VALUES
+
 	('agua', 30, 'bebida'),
 	('iogurte', 7, 'laticinios'),
 	('torrada', 8, 'padaria'),
@@ -67,5 +69,6 @@ CEP varchar(15)
 );
 
 INSERT INTO cliente (codigoCliente, nomeEmpresa, CNPJ, Endereco, regiao, CEP) VALUES
+
 	('1', 'CONSULTDA' '123456789000', 'rua concha', 'sao paulo' '0631000'),
 	('2', 'TRAVALANCHES', '987654321000', 'rua ostra', 'rio de janeiro', '07396260'),
