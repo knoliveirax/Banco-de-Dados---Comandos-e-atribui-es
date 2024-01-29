@@ -1,4 +1,4 @@
-# Banco-de-Dados---Comandos-e-atribui-es
+# Banco-de-Dados---Comandos-e-atribuicoes
 Banco de Dados - Comandos e atribuições feitos do zero no bloco de notas.
 
 CREATE DATABASE cadastroCidade;
@@ -16,7 +16,7 @@ INSERT INTO cidade (nome, uf, populacao) VALUES
 	('rio de janeiro', 'rj', '230000'),
 	('carapicuiba', 'sp', '45000'),
 
-----------------------------
+ 
 
 CREATE DATABASE cadastroFuncionario;
 USE cadastroFuncionario;
@@ -36,8 +36,6 @@ INSERT INTO funcionario (nome, cpf, data-nascimento, departamento) VALUES
 	('kelly', '234567891', '1982-07-28', 'esmalteria'),
 
 
---------------------------
-
 CREATE DATABSE cadastroMercadoria;
 USE cadastroMercadoria;
 
@@ -53,8 +51,6 @@ INSERT INTO mercadoria (tipo_mercadoria, quant_mercadoria, setor_mercadoria) VAL
 	('iogurte', 7, 'laticinios'),
 	('torrada', 8, 'padaria'),
 	('sabonete', 10, 'higiene'),
-
--------------------------------------
 
 
 CREATE DATABASE tabelaCliente;
